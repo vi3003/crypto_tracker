@@ -1,0 +1,17 @@
+.coin-info-desc {
+     padding-bottom: 1rem;
+     cursor: pointer;
+}
+
+.coin-info-heading {
+    padding-top: 1rem;
+}
+
+.coin-info-desc a{
+    color: var(--pink) !important;
+    text-decoration: underline !important;
+}
+
+.coin-info-desc a:hover {
+    color: var(--lavender) !important;
+}

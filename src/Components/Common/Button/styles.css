@@ -1,0 +1,39 @@
+.btn {
+    background-color: var(--pink);
+    color: var(--white);
+    padding: 0.5rem 1.5rem;
+    border-radius: 3rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    min-width: 100px;
+    border: 2px solid var(--pink);
+    text-transform: capitalize;
+}
+
+.btn:hover {
+    box-shadow: 3px 2px 43px 0px rgba(240,91,143,0.69);
+    transition: all 0.3s;
+    background-color: var(--black);
+    color: var(--white);
+    border: 2px solid var(--pink);
+}
+
+.outlined-btn {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0.5rem 1.5rem;
+    border: 2px solid var(--pink);
+    border-radius: 3rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    min-width: 100px;
+    text-transform: capitalize;
+}
+
+.outlined-btn:hover {
+    background-color: var(--pink);
+    box-shadow: 3px 2px 43px 0px rgba(240,91,143,0.69);
+    transition: all 0.3s;
+}
